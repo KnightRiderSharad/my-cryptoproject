@@ -69,5 +69,10 @@
   }
   .social-link {
     font-size: 1rem !important;
+
+  }
+  .foot{
+    font-size:10px;
+    margin-right:30px;
   }
 }
