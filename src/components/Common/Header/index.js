@@ -29,7 +29,7 @@ function Header() {
 
   const changeMode = () => {
     setDarkMode(!darkMode);
-    toast.success("Theme Changed!");
+    // toast.success("Theme Changed!");
     const mode = localStorage.getItem("theme");
     if (mode == "dark") {
       setLight();

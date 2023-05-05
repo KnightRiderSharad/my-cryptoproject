@@ -41,7 +41,7 @@ export default function MobileDrawer() {
 
   const changeMode = () => {
     setDarkMode(!darkMode);
-    toast.success("Theme Changed!");
+    // toast.success("Theme Changed!");
     const mode = localStorage.getItem("theme");
     if (mode == "dark") {
       setLight();
@@ -83,7 +83,7 @@ export default function MobileDrawer() {
               alignItems: "center",
             }}
           >
-            <p className="link">{ darkMode ? "Light Mode" : "Dark Mode"}</p>
+            <p className="link">{darkMode ? "Light Mode" : "Dark Mode"}</p>
             <Switch
               checked={darkMode}
               onClick={() => {

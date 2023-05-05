@@ -13,6 +13,7 @@ function Footer() {
   return (
     <div className="footer">
      <h2 className="logo" onClick={() => topFunction()}>
+
         CryptoTracker<span className="foot">@Sharad2023Project.com</span>
       </h2>
       <div className="social-links">
